@@ -34,6 +34,7 @@ class CommunityApplicationTests {
 
     @Test
     public void testValue() {
+
         assertThat(propertyTestName).isEqualTo("property depth test");
         assertThat(propertyTest).isEqualTo("test");
         assertThat(defaultValue).isEqualTo("default value");
